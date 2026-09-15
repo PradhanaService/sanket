@@ -1,0 +1,27 @@
+# Build directories
+build/
+build_clang/
+build_mingw/
+build_vs/
+out/
+bin/
+
+# Large signal files
+*.iq
+*.wav
+*.bin
+
+# CMake/Qt
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+*.o
+*.a
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
